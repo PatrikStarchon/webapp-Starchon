@@ -1,5 +1,5 @@
-function zmenFarbu() {
-  document.body.style.backgroundColor =
-    document.body.style.backgroundColor === "lightblue" ? "white" : "lightblue";
+let count = 0;
+function zvys() {
+  count++;
+  document.getElementById("counter").innerText = count;
 }
-
